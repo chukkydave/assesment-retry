@@ -11,7 +11,7 @@ function Main() {
                 <div className="list">
                     <div>
                         <div className="list-item">
-                            <img className="profile-image" src={pImage} alt="Profile Image" />
+                            <img className="profile-image" src={pImage} alt="" />
                             <div className="profile-info">
                                 <h3 className="profile-name">Smoothie</h3>
                                 <span className="location">Smoothy store</span>
@@ -28,7 +28,7 @@ function Main() {
                     </div>
                     <div>
                         <div className="list-item">
-                            <img className="profile-image" src={pImage} alt="Profile Image" />
+                            <img className="profile-image" src={pImage} alt="" />
                             <div className="profile-info">
                                 <h3 className="profile-name">Smoothie</h3>
                                 <span className="location">Smoothy store</span>
@@ -45,7 +45,7 @@ function Main() {
                     </div>
                     <div>
                         <div className="list-item">
-                            <img className="profile-image" src={pImage} alt="Profile Image" />
+                            <img className="profile-image" src={pImage} alt="" />
                             <div className="profile-info">
                                 <h3 className="profile-name">Smoothie</h3>
                                 <span className="location">Smoothy store</span>
@@ -62,7 +62,7 @@ function Main() {
                     </div>
                     <div>
                         <div className="list-item">
-                            <img className="profile-image" src={pImage} alt="Profile Image" />
+                            <img className="profile-image" src={pImage} alt="" />
                             <div className="profile-info">
                                 <h3 className="profile-name">Smoothie</h3>
                                 <span className="location">Smoothy store</span>

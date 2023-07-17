@@ -20,7 +20,7 @@ function Main() {
                 </div>
 
                 <div className='profileImage'>
-                    <img alt="profile image" src={disImage} />
+                    <img alt="" src={disImage} />
                 </div>
                 <div className='profileInfo'>
                     <h2 className='profileName'>

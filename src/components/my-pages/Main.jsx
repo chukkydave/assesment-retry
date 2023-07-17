@@ -1,6 +1,5 @@
 import React from 'react'
 import { MyPages } from '../../styled-components/styled';
-import plus from "../../img/path-333@1x.png";
 import searchIcon from "../../img/path-99-1@1x.png"
 import imgee from "../../img/ellipse-95-1@1x.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -25,7 +24,7 @@ function Main() {
             </div>
             <div className="list">
                 <div className="list-item">
-                    <img className="profile-image" src={imgee} alt="Profile Image" />
+                    <img className="profile-image" src={imgee} alt="" />
                     <div className="profile-info">
                         <h3 className="profile-name">Business Name</h3>
                         <span className="location">Private Page</span>
@@ -39,7 +38,7 @@ function Main() {
                     </div>
                 </div>
                 <div className="list-item">
-                    <img className="profile-image" src={imgee} alt="Profile Image" />
+                    <img className="profile-image" src={imgee} alt="" />
                     <div className="profile-info">
                         <h3 className="profile-name">Business Name</h3>
                         <span className="location">Private Page</span>
@@ -50,7 +49,7 @@ function Main() {
                     </div>
                 </div>
                 <div className="list-item">
-                    <img className="profile-image" src={imgee} alt="Profile Image" />
+                    <img className="profile-image" src={imgee} alt="" />
                     <div className="profile-info">
                         <h3 className="profile-name">Business Name</h3>
                         <span className="location">Private Page</span>

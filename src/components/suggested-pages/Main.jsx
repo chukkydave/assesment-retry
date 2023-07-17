@@ -13,7 +13,7 @@ function Main() {
             <SuggestedPages>
                 <div className="list">
                     <div className="list-item">
-                        <img className="profile-image" src={imge} alt="Profile Image" />
+                        <img className="profile-image" src={imge} alt="" />
                         <div className="profile-info">
                             <h3 className="profile-name">Rose Kooto</h3>
                             <span className="location">Abuja</span>
@@ -22,7 +22,7 @@ function Main() {
                         <img className="icon" src={ico} alt="Icon down" />
                     </div>
                     <div className="list-item">
-                        <img className="profile-image" src={imge} alt="Profile Image" />
+                        <img className="profile-image" src={imge} alt="" />
                         <div className="profile-info">
                             <h3 className="profile-name">Rose Kooto</h3>
                             <span className="location">Abuja</span>
@@ -31,7 +31,7 @@ function Main() {
                         <img className="icon" src={ico} alt="Icon down" />
                     </div>
                     <div className="list-item">
-                        <img className="profile-image" src={imge} alt="Profile Image" />
+                        <img className="profile-image" src={imge} alt="" />
                         <div className="profile-info">
                             <h3 className="profile-name">Rose Kooto</h3>
                             <span className="location">Abuja</span>
@@ -40,7 +40,7 @@ function Main() {
                         <img className="icon" src={ico} alt="Icon down" />
                     </div>
                     <div className="list-item">
-                        <img className="profile-image" src={imge} alt="Profile Image" />
+                        <img className="profile-image" src={imge} alt="" />
                         <div className="profile-info">
                             <h3 className="profile-name">Rose Kooto</h3>
                             <span className="location">Abuja</span>
@@ -49,7 +49,7 @@ function Main() {
                         <img className="icon" src={ico} alt="Icon down" />
                     </div>
                     <div className="list-item">
-                        <img className="profile-image" src={imge} alt="Profile Image" />
+                        <img className="profile-image" src={imge} alt="" />
                         <div className="profile-info">
                             <h3 className="profile-name">Rose Kooto</h3>
                             <span className="location">Abuja</span>
@@ -58,7 +58,7 @@ function Main() {
                         <img className="icon" src={ico} alt="Icon down" />
                     </div>
                     <div className="list-item">
-                        <img className="profile-image" src={imge} alt="Profile Image" />
+                        <img className="profile-image" src={imge} alt="" />
                         <div className="profile-info">
                             <h3 className="profile-name">Rose Kooto</h3>
                             <span className="location">Abuja</span>
