@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import TopBar from "./components/topbar/Main"
+import { Container, Column1, Column2, Column3 } from './styled-components/styled';
+import SwitchAccount from "./components/switch-account/Main"
+import Feeds from "./components/feeds/Main";
+import MyPages from "./components/my-pages/Main";
+import User from "./components/user/Main";
+import Moments from "./components/moments/Main"
+import SuggestedListing from "./components/suggested-listings/Main"
+import SuggestedPages from "./components/suggested-pages/Main"
+import Post from "./components/post/Main"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <TopBar />
+      <Container>
+        <Column1>
+          <SwitchAccount />
+          <Feeds />
+          <MyPages />
+        </Column1>
+        <Column2>
+          <User />
+          <Moments />
+          <Post />
+          <Post />
+        </Column2>
+        <Column3>
+          <SuggestedListing />
+          <SuggestedPages />
+        </Column3>
+      </Container>
     </div>
   );
 }
