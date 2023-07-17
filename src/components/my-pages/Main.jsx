@@ -60,7 +60,7 @@ function Main() {
                     </div>
                 </div>
                 <div className="list-item">
-                    <img className="profile-image" src={imgee} alt="Profile Image" />
+                    <img className="profile-image" src={imgee} alt="" />
                     <div className="profile-info">
                         <h3 className="profile-name">Business Name</h3>
                         <span className="location">Private Page</span>
